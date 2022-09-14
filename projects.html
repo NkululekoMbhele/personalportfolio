@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'background': '#8ECAE6',
+                        'yellow': '#FFB703',
+                        'orange': '#FB8500',
+                        'secondary': '#219EBC',
+                        'tetiary': '#023047',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-background">
+
+    <nav class="flex md:px-36 px-4 justify-between items-center min-h-14 z-20 py-4">
+        <h1 class="z-20 text-tetiary font-bold md:text-xl text-sm">NKULULEKO <span class="text-orange">DOT IO</span> </h1>
+        <ul class="nav-list text-tetiary z-20 flex sm:flex-row flex-col sm:mr-0 mr-4 md:text-center text-center  sm:gap-5 sm:text-sm text-xs  uppercase font-bold">
+            <li class="sm:py-2 pb-4"><a href="">Resume</a></li>
+            <li class="sm:py-2 pb-4"><a href="">Accomplishments</a></li>
+            <li class="border-orange border rounded py-2 px-2"><a href="">Projects</a></li>
+        </ul>
+    </nav>
+    <section class="projects w-screen flex text-center flex-col">
+        <div class="title py-4">
+            <h1 class="text-4xl font-semibold uppercase">Projects</h1>
+        </div>
+        <div id="projects" class="projects-list py-4 md:px-52">
+
+            <!-- Project 1 : Brand Merchandise E-commerce Store -->
+
+            <!-- <div class="project py-4">
+                <div class="project-title">
+                    <h3 class="text-2xl pb-2">Brand Merchandise E-commerce Store</h3>
+                </div>
+                <div class="project-description">
+                    <p>I have been bringing value to most of the people I know and they always say I am helping them a lot and they wished to support my hustle. Ever since 2021 March I have been wearing my own custom branded t-shirts and hoodies (Nkululeko
+                        dot io) and people wanted to buy them, I then thought of developing an e-commerce website to sell the custom merchandise I was rocking.</p>
+                    <div class="responsibilities">
+                        <h5 class="text-xl py-2">Responsibilities</h5>
+                        <ul class="list">
+                            <li>• I conceptualized and designed the website, designed the UI elements, and edited the product images on the site.</li>
+                            <li>• The website was serverless, firebase was used to handle the backend and React js for the client-side.</li>
+                            <li>• Product data is dynamic and served to the client from firebase.</li>
+                            <li>• I used firebase authentication for protected routes.</li>
+                            <li>• I used nodejs in cloud functions to manage the ordering process notification and handling.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="links py-8">
+                    <a class="code border rounded px-4 py-2 mr-2" href="http://">View Code Base</a>
+                    <a class="view-site border border-yellow rounded px-4 py-2 mr-2" href="https://">Live Demo</a>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

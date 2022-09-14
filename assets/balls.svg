@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="256" viewBox="0 0 147 256">
+  <g id="balls" transform="translate(-52 -480)">
+    <g id="Balls-2" data-name="Balls">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="21.5" cy="21.5" r="21.5" transform="translate(52 480)" fill="#d9d9d9"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="21.5" cy="21.5" r="21.5" transform="translate(52 551)" fill="#d9d9d9"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="21.5" cy="21.5" r="21.5" transform="translate(52 622)" fill="#d9d9d9"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="21.5" cy="21.5" r="21.5" transform="translate(52 693)" fill="#d9d9d9"/>
+    </g>
+    <g id="Balls_2" data-name="Balls 2" transform="translate(104)" opacity="0.27">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="21.5" cy="21.5" r="21.5" transform="translate(52 480)" fill="#d9d9d9"/>
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="21.5" cy="21.5" r="21.5" transform="translate(52 551)" fill="#d9d9d9"/>
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="21.5" cy="21.5" r="21.5" transform="translate(52 622)" fill="#d9d9d9"/>
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="21.5" cy="21.5" r="21.5" transform="translate(52 693)" fill="#d9d9d9"/>
+    </g>
+  </g>
+</svg>
