@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <title>NKULULEKO DOT IO | HOME</title>
     <script>
         tailwind.config = {
@@ -32,100 +34,348 @@
         </div>
         <nav class="flex md:px-36 px-4 justify-between items-center min-h-14 z-20 py-4">
             <h1 class="z-20 text-tetiary font-bold md:text-xl text-sm">NKULULEKO <span class="text-orange">DOT IO</span> </h1>
-            <ul class="nav-list text-tetiary z-20 flex sm:flex-row flex-col sm:mr-0 mr-4 md:text-center text-center  sm:gap-5 sm:text-sm text-xs  uppercase font-bold">
-                <li class="sm:py-2 pb-4"><a href="/">Home</a></li>
-                <li class="border-orange border rounded py-2 px-2"><a href="projects.html">Projects</a></li>
+            <ul class="nav-list text-tetiary z-20 flex h-full items-center gap-1 sm:flex-row sm:mr-0 mr-4 md:text-center text-center  sm:gap-5 sm:text-sm text-xs  uppercase font-bold">
+                <li class="py-2 px-1"><a href="https://www.linkedin.com/in/nkululeko-mbhele/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="py-2 px-1"><a href="https://github.com/NkululekoMbhele/"><i class="fa-brands fa-github"></i></a></li>
+                <li class="py-2 px-1"><a href="mailto:nkululekombhele6017@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                <li class="sm:py-2"><a href="/">Home</a></li>
+                <li class="border-orange border rounded py-2 px-2"><a href="./projects.html">Projects</a></li>
             </ul>
-        </nav>s
-        <div class="absolute top-1/2 md:right-28  right-16 text-tetiary ">
+        </nav>
+        <div class="absolute md:top-60 top-1/2 md:right-28  right-16 text-tetiary ">
             <div class="title text-right">
-                <h1 class="md:text-6xl text-5xl font-bold mb-4">Nkululeko Mbhele</h1>
-                <h5 class="text-2xl">Software Engineer</h5>
+                <h1 class="md:text-8xl text-7xl font-bold mb-4">Nkululeko <br> Mbhele</h1>
+                <h5 class="text-2xl">Full Stack Engineer</h5>
             </div>
         </div>
     </header>
 
-    <!-- Welcome Video -->
-    <section class="welcome w-screen h-screen relative flex justify-center">
-        <img class="-z-10 absolute right-0 w-full h-auto" src="./assets/BackIntro.svg" alt="">
-        <div class="w-full h-full flex flex-col items-center md:mt-14">
-            <div class="intro z-20 bg-white md:w-7/12 md:h-4/6 w-10/12 h-64">
+    <!-- Welcome Text -->
+    <section class="welcome w-screen md:h-screen relative flex justify-center item-center md:mt-0 mt-12">
+        <img class="-z-10 absolute right-0 w-full h-auto -top-10" src="./assets/BackIntro.svg" alt="">
+        <div class="w-full h-full flex flex-col items-center justify-center md:mt-24 mt-8">
+            <div class="intro z-20 bg-gradient-to-b rounded-xl shadow-xl text-white from-background via-blue-400 to-blue-600 md:w-7/12 md:h-4/6 w-11/12 h-64 flex justify-center items-center flex-col">
+                <h1 class="text-center md:text-7xl text-6xl md:mb-16 mb-4 font-bold tracking-wider">WELCOME</h1>
+                <h3 class="w-4/6 text-center text-lg md:text-xl">Feel free to navigate around the site and learn more about the exciting Nkululeko, from the far <span class="text-orange">back</span> in the near <span class="text-orange">end</span> to the <span class="text-orange">front</span>. :)
+                </h3>
             </div>
         </div>
     </section>
 
-    <!-- About Me -->
-    <section class="welcome w-screen relative flex justify-center">
-        <div class="w-full h-full flex flex-col items-center md:mt-14">
-            <h1 class="text-5xl font-bold pt-8">Who is this Nkululeko?</h1>
-        </div>
+    <!-- --------- My Story ---------------- -->
+    <section class="my-story">
+
     </section>
-    
+
     <!-- Skills List -->
-    <section class="welcome w-screen py-12 relative flex justify-center">
+    <section class="welcome w-screen bg-gradient-to-b from-blue-300 to-blue-100 py-5 pb-12 mt-24 relative flex justify-center">
         <div class="w-full h-full flex flex-col items-center md:mt-14">
-            <h1 class="text-5xl font-bold pt-8">My Skills</h1>
-            <div class="skills-container flex flex-col gap-5 my-12 bg-white py-12 px-28 w-6/12 rounded-md shadow-md">
-                <div class="skill-item w-full">
-                    <div>
+            <h1 class="text-4xl md:text-6xl font-bold py-8 uppercase text-blue-800 tracking-wide">Skillset</h1>
+            <div class="w-full flex md:flex-row flex-col md:items-start items-center justify-center gap-2 md:gap-5">
+                <div id="skills" class="skills-container flex flex-col gap-5 my-1 md:my-12 bg-white py-10 md:px-12 px-4 w-11/12 md:w-5/12 rounded-md shadow-md">
+                    <h1 class="skill-group text-center text-blue-400 uppercase text-lg font-bold tracking-wide py-5">FrontEnd Skills</h1>
+                    <div class="skill-item w-full">
                         <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
-                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">    
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
                             </div>
                         </div>
+                        <h4 class="skill-label py-2 pl-1">HTML/CSS</h4>
                     </div>
-                    <div class="skill-label py-2 pl-1">HTML</div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">SASS</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">JavaScript</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">AJAX</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-6/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">JSON</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-6/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">ReactJS</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">UX/UI Design</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Figma</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Adobe XD</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Image Manipulation</h4>
+                    </div>
                 </div>
-                <div class="skill-item w-full">
-                    <div>
+                <div id="skills" class="skills-container flex flex-col gap-5 my-12 bg-white py-10 md:px-12 px-4 w-11/12 md:w-5/12 rounded-md shadow-md">
+                    <h1 class="skill-group text-center text-blue-400 uppercase text-lg font-bold tracking-wide py-5">BackEnd Skills</h1>
+                    <div class="skill-item w-full">
                         <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
-                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">    
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
                             </div>
                         </div>
+                        <h4 class="skill-label py-2 pl-1">Restful APIs</h4>
                     </div>
-                    <div class="skill-label py-2 pl-1">HTML</div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Python</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Java</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">NodeJS</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-9/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Django</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Machine Learning</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Database Design and Management</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">SQL</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Linux</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Google Cloud Platform</h4>
+                    </div>
                 </div>
-                <div class="skill-item w-full">
-                    <div>
+            </div>
+            <div class="w-full flex md:flex-row flex-col md:items-start items-center justify-center gap-2 md:gap-5">
+                <div id="skills" class="skills-container flex flex-col gap-5 my-1  bg-white py-10 md:px-12 px-4 w-11/12 md:w-5/12 rounded-md shadow-md">
+                    <h1 class="skill-group text-center text-blue-400 uppercase text-lg font-bold tracking-wide py-5">Software Engineering Skills</h1>
+                    <div class="skill-item w-full">
                         <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
-                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">    
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
                             </div>
                         </div>
+                        <h4 class="skill-label py-2 pl-1">Agile Methodologies</h4>
                     </div>
-                    <div class="skill-label py-2 pl-1">HTML</div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Soure/Version Control</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-11/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Git/Github</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Operating Systems</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-6/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Networking</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-6/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Data Structures and Algorithms</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Requirements Gathering</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Testing</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Software Development Cycle</h4>
+                    </div>
                 </div>
-                <div class="skill-item w-full">
-                    <div>
+                <div id="skills" class="skills-container flex flex-col gap-5 bg-white py-10 md:px-12 px-4 w-11/12 md:w-5/12 rounded-md shadow-md">
+                    <h1 class="skill-group text-center text-blue-400 uppercase text-lg font-bold tracking-wide py-5">Soft Skills</h1>
+                    <div class="skill-item w-full">
                         <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
-                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">    
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
                             </div>
                         </div>
+                        <h4 class="skill-label py-2 pl-1">Creativity</h4>
                     </div>
-                    <div class="skill-label py-2 pl-1">HTML</div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Teamwork</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Responsibility</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-10/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Problem Solving</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-9/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Adaptability</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Time Management</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Work Ethic and Motivation</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Communication</h4>
+                    </div>
+                    <div class="skill-item w-full">
+                        <div class="bar-back bg-blue-200 h-4 w-full rounded-full relative">
+                            <div class="bar-back bg-blue-400 h-4 w-8/12 rounded-full left-0 top-0 absolute">
+                            </div>
+                        </div>
+                        <h4 class="skill-label py-2 pl-1">Critical Thinking</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Accomplishments -->
-    <section class="welcome w-screen relative flex justify-center">
-        <div class="w-full h-full flex flex-col items-center md:mt-14">
-            <h1 class="text-5xl font-bold pt-8">Accomplishments</h1>
-            <ul class="flex flex-col gap-5 my-12 bg-white py-12 px-28 w-6/12 rounded-md shadow-md">
-                <li class="text-lg font-bold">• I represented my province in a national school's chess championship we came 6th, and it was the first highest position we have ever won as KwaZulu Natal.</li>
-                <li class="text-lg font-bold">• In the period of about 2 years, I have designed 10 logos and 30 posters for clients and for my personal use.</li>
-                <li class="text-lg font-bold">• I have made more than R10 000 offering my services casually and in a business environment, the services include Graphic Design and Web Development. </li>
-                <li class="text-lg font-bold">• I founded a small digital agency (NKULULEKO DOT IO) while pursuing a degree.</li>
-                <li class="text-lg font-bold">• I have over 7 000 followers on Linkedin.</li>
-                <li class="text-lg font-bold">• I was the best achiever in Mathematics, and Physical Science in my high school, with scores 95% and 93% respectively.</li>
-                <li class="text-lg font-bold">• I designed t-shirts, running bibs for a big UCT running event where there was even the vice president of UCT.</li>
+    <section class="welcome w-screen relative flex justify-center py-10">
+        <div class="w-full h-full flex flex-col items-center ">
+            <h1 class="text-4xl md:text-6xl font-bold py-8 uppercase text-blue-800 tracking-wide">Accomplishments</h1>
+            <ul class="flex flex-col gap-5 my-12 bg-white py-12 md:px-28 px-4 md:w-6/12 w-11/12 rounded-md shadow-md">
+                <li class="text-lg font-semibold">• I represented my province in a national school's chess championship we came 6th, and it was the first highest position we have ever won as KwaZulu Natal.</li>
+                <li class="text-lg font-semibold">• In the period of about 2 years, I have designed 10 logos and 30 posters for clients and for my personal use.</li>
+                <li class="text-lg font-semibold">• I have made more than R10 000 offering my services casually and in a business environment, the services include Graphic Design and Web Development. </li>
+                <li class="text-lg font-semibold">• I founded a small digital agency (NKULULEKO DOT IO) while pursuing a degree.</li>
+                <li class="text-lg font-semibold">• I have over 7 000 followers on Linkedin.</li>
+                <li class="text-lg font-semibold">• I was the best achiever in Mathematics, and Physical Science in my high school, with scores 95% and 93% respectively.</li>
+                <li class="text-lg font-semibold">• I designed t-shirts, running bibs for a big UCT running event where there was even the vice president of UCT.</li>
             </ul>
         </div>
     </section>
 
     <!-- Projects -->
-    <section class="welcome w-screen relative flex justify-center">
+    <!-- <section class="welcome w-screen relative flex justify-center">
         <div class="w-full h-full flex flex-col items-center md:mt-14">
-            <h1 class="text-5xl font-bold pt-8">Accomplishments</h1>
+            <h1 class="text-4xl md:text-6xl font-bold py-8 uppercase text-blue-800 tracking-wide">Recent Projects</h1>
             <div class="flex flex-col gap-5 my-12 bg-white py-12 px-28 w-6/12 rounded-md shadow-md">
                 <div class="Project-item">
                     <div class="name"></div>
@@ -143,7 +393,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
     <script src="./js/script.js"></script>
 </body>
 
